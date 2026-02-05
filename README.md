@@ -8,14 +8,12 @@ and
 <b>Augmented-Prostate-ImageMask-Dataset.zip</b></a> with colorized masks, which was derived by us from <br><br>
 <a href="https://www.kaggle.com/datasets/haithem1999/prostate-annotated-dataset-for-image-segmentation">
 <b>Prostate annotated dataset for image segmentation</b> </a> on the kaggle.com.
-
 <br><br>
 <b>Data Augmentation Strategy</b><br>
 To address the limited size of images and masks of the original <b>Prostate </b> dataset,
 we used our offline augmentation tool <a href="./generator/ImageMaskDatasetGenerator.py">ImageMaskDatasetGenerator.py</a> (please see also: 
 <a href="https://github.com/sarah-antillia/Image-Deformation-Tool">Image-Deformation-Tool</a>)
  to generate our Augmented Prostate dataset.
- 
 <br><br> 
 <hr>
 <b>Actual Image Segmentation for Prostate Images of 512x512 pixels </b><br>
